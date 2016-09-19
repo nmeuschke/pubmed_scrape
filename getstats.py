@@ -4,7 +4,7 @@ X: Contains single-author publications where each author has three or more publi
 Y: The author appearing in ‘X’ must have three or more collaborative publications.
 Z: Single-author Publications authored by those unrelated to ‘X’ having a minimum of two publications(proper) each.
 Author:seenu.andi-rajendran'''
-i
+
 from Bio import Entrez
 from Bio import Medline
 import plotly, json, sys, time, httplib, urllib2
